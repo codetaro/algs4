@@ -11,7 +11,8 @@ public class SortCompare {
         if (alg.equals("Selection")) Selection.sort(a);
         if (alg.equals("Shell")) Shell.sort(a);
         if (alg.equals("Merge")) Merge.sort(a);
-//        if (alg.equals("Quick")) Quick.sort(a);
+        if (alg.equals("Quick")) Quick.sort(a);
+        if (alg.equals("Quick3way")) Quick3way.sort(a);
 //        if (alg.equals("Heap")) Heap.sort(a);
         return timer.elapsedTime();
     }
